@@ -79,18 +79,13 @@ reset.addEventListener('click', resetFunk);
 //Равно
 var areaSum = document.getElementById('area-sum');
 function resultFunk() {
-    /*var x = eval(area.value);
-    y = String(x);
-    areaSum.value = y;*/
-    //JOKE
-    areaSum.classList.add('joke');
     areaSum.value = 'Юра, когда отдашь долг?';
+    areaSum.classList.add('joke');
+    //
 };
 result.addEventListener('click', resultFunk);
 
 //Удалить последний символ
-
-
 function backspaceFunk() {
     var x = area.innerHTML;
     var y = String(x);
